@@ -1,0 +1,18 @@
+body{
+    background-color: aqua;
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+   /* bakcground-position:200px 200px; */
+   background-size: cover;
+   background-attachment: fixed;
+   
+}
+
+#div1{
+    border:1px solid black;
+    width:400px;
+    height:200px;
+    background-image: url(download.jpg);
+    
+}
+

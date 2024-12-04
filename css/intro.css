@@ -1,0 +1,49 @@
+/* selector*/
+h2{
+    background-color: rgb(14, 3, 41);
+    text-align: center;
+    color: rgb(32, 32, 0);    
+}
+
+
+/* Universal Selector */
+*{
+    background-color: rgb(78, 2, 59);
+    color: rgb(0, 0, 0);
+}
+
+
+
+/* Id selector */
+#p1{
+    background-color: rgb(71, 44, 4);
+    font-size: 32px;    
+}
+
+/* Class selector */
+.para{
+    background-color: rgb(179, 106, 17);
+    font-size: 25px;
+}
+/* Descending selector */
+div p{
+    background-color: rgb(57, 120, 175);
+    color: brown;
+    font-size: 22px;
+
+}
+
+/* Child Selector */
+div>h1{
+    background-color: salmon;
+    color: blueviolet;
+    font-size: 22px;
+    
+}
+ 
+
+/* Group Selector */
+h1,h2 button{
+    background-color: royalblue;
+    color: darkkhaki;
+    } 
