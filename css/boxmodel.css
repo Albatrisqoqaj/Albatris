@@ -1,0 +1,44 @@
+body{
+      padding: 0px;
+      margin: 0px;
+      background-color: aqua;
+}
+
+p{
+    background-color: blueviolet;
+}
+
+#p1{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 30px;
+    padding-left: 50px;
+ 
+}
+
+#p2{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-left: 50px;
+    margin: 30px 20px 50px 100px;
+}
+
+#p3{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding: 30px 20px 50px 100px;
+}
+
+#p4{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 30px;
+    outline: 7px solid red;
+    outline-offset: 5px;
+    
+}

@@ -1,0 +1,12 @@
+
+
+#div1{
+     width: 300px;
+     border: 10px solid red;
+     outline: 15px solid blue;
+     outline-offset: 5px;
+     margin: auto;
+     margin-top: 200px;
+     padding: 30px;
+
+}
