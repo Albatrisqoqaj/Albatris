@@ -1,0 +1,82 @@
+/* font style and family */
+#p1{
+    font-family: "Noto Serif Telugu", serif;
+    /* font-style:normal; */
+    /*font-style:oblique;  */
+    font-style: italic;
+
+}
+
+/* font variant */
+#p2{
+    font-variant: small-caps;
+    /* font-varial:normal */
+}
+
+/* font weight */
+
+#p3{
+    font-weight: bold;
+    /* font-weight:900; */
+    /* font-weight:bolder */
+}
+
+
+#p4{
+    font-size: 4vw;
+    /* font-size:50 */
+    /* font-size:150% */
+    /* font-size: large; */
+    /* font-size: small; */
+    /* font-size: 1cm; */
+}
+
+/* ShortHand */
+
+
+ #p5{
+    font:bold italic small-caps 10vw georgian;
+    width: 150px;
+ }
+
+ #p{
+    font-family: "Playwrite IE Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+ }
+
+
+ #p7{
+    color:aqua ;
+    direction: rtl;
+ }
+
+ /* Text indent */
+
+#p8{
+    text-indent: 20px;
+    /* text-indent: 5cm */
+}
+
+/* Text spacing */
+#p9{
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    /* white-space: pre; */
+
+}
+
+/* text decoration */
+#p10{
+    text-decoration: underline;
+    /* text-decoration:line-through; */
+    /* text-decoration:overline; */
+}
+
+/* text transform */
+#p11{
+    text-transform: capitalize;
+    /* text-transform:lowercase; */
+    /* text-transform: uppercase; */
+    /* text-transform: none; */
+}
