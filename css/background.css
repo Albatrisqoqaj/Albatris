@@ -16,3 +16,9 @@ body{
     
 }
 
+#div2{
+    border:1px solid black;
+    width:400px;
+    height:400px;
+    background: aqua url(download.jpg) no-repeat 100% scroll;
+}
