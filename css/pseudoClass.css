@@ -1,0 +1,63 @@
+#input1:focus {
+     background-color: pink;
+     font-size: 25px;
+}
+
+
+#input2:disabled{
+    background: #dddddd;
+
+}
+
+#input2:enabled{
+    background: #ff0;
+}
+
+.input3:checked {
+    height: 30px;
+    width: 30px;
+}
+
+p:first-of-type{
+    background-color: yellow;
+}
+
+p:last-of-type{
+   background-color: yellow;
+}
+
+p:first-child {
+    background-color: red;
+}
+
+p:last-child {
+    background-color: red;
+}
+
+p:empty{
+    width: 100px;
+    height: 20px;
+    background: #f0f;
+}
+
+p {
+  background: #000;
+}
+
+:not(p) {
+    /* Per te funksionuar kjo class duhet gjithashtu edhe selektorit te caktuar ti jepet nje veti e caktuar */
+    background-color: lightblue;
+}
+
+p{
+    background-color: blue;
+}
+
+:root{
+    background: pink;
+}
+
+:target{
+    border: 20px solid red;
+    background-color: blueviolet;
+}
