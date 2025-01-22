@@ -1,0 +1,44 @@
+/* Stilizimi për faqen e përgjithshme */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+    border: 20px solid #808080; /* Ngjyrë gri për border */
+    padding: 20px;
+}
+
+/* Stilizimi për datën */
+.data p {
+    color: #5A5AFF; /* Ngjyra blu e kalter */
+    letter-spacing: 2px; /* Hapesira mes shkronjave */
+    text-transform: uppercase; /* Teksti me shkronja te medha */
+}
+
+/* Stilizimi për titullin */
+.title {
+    font-size: 35px;
+    color: #003366; /* Ngjyrë e kalter e mbyllt */
+    text-transform: capitalize; /* Çdo fjalë fillon me shkronjë të madhe */
+}
+
+/* Stilizimi për përmbajtjen */
+.content .first-paragraph {
+    border-left: 3px solid #000; /* Vija vertikale për paragrafin e parë */
+    padding-left: 10px;
+}
+
+.content .other-paragraphs {
+    margin-top: 10px;
+}
+
+/* Stylizimi për ndarësin horizontale */
+.separator {
+    border: 0;
+    border-top: 2px solid #000;
+    margin: 20px 0;
+}
