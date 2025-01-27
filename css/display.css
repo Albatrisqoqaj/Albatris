@@ -1,0 +1,17 @@
+h1{
+    display: inline;
+    display: none;
+    /* visibility: hidden; */
+    
+}
+
+
+p{
+    display: inline;
+    /* display:none */
+}
+
+
+a{
+    display: block;
+}
