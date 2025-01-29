@@ -1,0 +1,107 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+#p1{
+    border:1px solid black;
+    width: 200px;
+    height: 100px;
+    position: static;
+}
+
+#p2{
+    border:1px solid black;
+    width: 200px;
+    height: 100px;
+    position: static;
+   
+}
+
+#p3{
+border:1px solid black;
+width: 200px;
+height: 100px;
+position: static;
+top: 50px;
+left: 100px;
+
+}
+
+#p4 {
+    border:1px solid black;
+    width: 200px;
+    height: 100px;
+    position: sticky;
+    top: 40px;
+    background-color: lightcoral;
+    
+}
+
+#p5{
+    border:1px solid black;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 80px;
+    left: 120px;
+    
+}
+
+#p6{
+    border:1px solid black;
+    width: 200px;
+    height: 100px;
+    position: static;
+    
+}
+
+#p7{
+    border:1px solid black;
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    background-color: aqua;
+    top: 100px;
+    left: 100px;
+    z-index: 100;
+}
+
+#p8{
+    border:1px solid black;
+    width: 200px;
+    height: 100px;
+    position: static;
+}
+
+#p9{
+    border:1px solid black;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    z-index: 90;
+    top: 300px;
+    left: 100px;
+    background-color: brown;
+}
+
+#p10{
+    border:1px solid black;
+    width: 200px;
+    height: 100px;
+    position: static;
+}
+
+#p11{
+    border:1px solid black;
+    width: 200px;
+    height: 100px;
+    position: static;
+}
+
+#p12{
+    border:1px solid black;
+    width: 200px;
+    height: 100px;
+    position: static;
+}
