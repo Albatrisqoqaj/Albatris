@@ -1,0 +1,51 @@
+#divk{
+    height: 700px;
+    width: 500px;
+    border: 2px dotted black;
+    padding:20px;
+    margin: auto;
+}
+
+#span1{
+    color: lightblue;
+    font-size: 20px;
+    
+}
+
+#p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+
+#input1{
+    font-size: 15px;
+    width: 450px;
+}
+
+#input2{
+    font-size: 15px;
+    width: 450px;
+    
+}
+
+#input3{
+    margin-right: 30px;
+   
+}
+
+#input4{
+    margin-right: 20px;
+}
+
+
+#label2{
+    margin-left: 180px;
+}
+
+#label3{
+    margin-left:  90px;;
+}
+    
+#span2{
+    color: lightblue;
+    font-size: 20px;
+}
