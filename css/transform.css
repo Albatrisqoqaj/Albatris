@@ -1,0 +1,100 @@
+#div1{
+    width: 100px;
+    height: 100px;
+    background: #900;
+    color: white;
+    transition: transform 2s;
+
+}
+
+#div1:hover{
+    width: 100px;
+    height: 100px;
+    background: #009;
+    transform: translate(100px,200px);
+}
+
+#div2{
+    width: 100px;
+    height: 100px;
+    background: #990;
+    transition: width 2s, height 2s, transform 2s;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+
+#div2:hover{
+    width: 300px;
+    height: 300px;
+    background: #009;
+    transform: rotate(360deg);
+}
+
+#div3{
+    width: 100px;
+    height: 100px;
+    background: #900;
+    color: white;
+    transition: 2s ,width 2s, height 2s, transform 2s;
+    
+}
+
+#div3:hover{
+    width: 100px;
+    height: 100px;
+    background: #009;
+    margin-left: 50px;
+    transform: scale(2, 3);
+}
+
+#div4{
+    width: 100px;
+    height: 100px;
+    background: #990;
+    color: white;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#div4:hover{
+    width: 300px;
+    height: 300px;
+    background: #009;
+    transform: skew(35deg, 35deg);
+
+}
+
+#div5{
+    width: 100px;
+    height: 100px;
+    background: #990;
+    transition: width 2s, height 2s, transform 2s;
+    color: white;
+
+}
+
+#div5:hover{
+    width: 300px;
+    height: 300px;
+    background: #009;
+    transform: rotateX(360deg);
+
+}
+
+#div6{
+    width: 100px;
+    height: 100px;
+    background: #900;
+    transition: width 2s, height 2s, transform 2s;
+    color: white;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+}
+
+#div6:hover{
+    width: 100px;
+    height: 100px;
+    background: #009;
+    transform: matrix(5, 0.5, 0.5, 4, 200, 10);
+}
