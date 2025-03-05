@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piceria Albi</title>
+    <link rel="stylesheet" href="projektfinal.css">
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+
+
+    function showSection(sectionId) {
+        document.querySelectorAll('section').forEach(section => {
+            section.style.display = 'none';
+        });
+        document.getElementById(sectionId).style.display = 'block';
+    }
+</script>
+</head>
+<body>
+<header>
+    <h1>Piceria Albi - Shija e Vërtetë!</h1>
+</header>
+<nav>
+    <ul>
+        <li><a onclick="showSection('about')">Rreth Nesh</a></li>
+        <li><a onclick="showSection('menu')">Menu</a></li>
+        <li><a onclick="showSection('contact')">Kontakt</a></li>
+        <li><a onclick="showSection('location')">Lokacioni</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>Rreth Nesh</h2>
+        <p>Mirësevini në Picerinë Albi, ku tradita dhe shija bashkohen për të krijuar përvojën më të mirë të picës!
+            Piceria Albi është një vend ku mund të gjeni shpresa dhe shijen e një pice të vërtetë, të bërë me dashuri dhe me kujdes. 
+            Në Picerinë Albi, keni mundësinë të shijoni një varietet të gjerë të piceve, nga klasike deri te modernja, të bërë me
+             ingrediente 
+            të freskëta dhe të kualitetit të lartë.
+           Pizzeria Albi është themeluar në vitin 2024 me qëllimin për t'iu ofruar klientëve një përvojë autentike të shijës italiane.
+           Me një pasion të thellë për ushqimin dhe kultivimin e përbërësve të freskët, ne jemi të përkushtuar të ofrojmë pica që 
+           janë të përgatitura me kujdes dhe dashuri.
+        </p>
+    
+    </section>
+    
+    <section id="menu">
+        <h2>Menu</h2>
+        <p>
+            Menuja jonë përmban një gamë të gjerë picash të përgatitura nga përbërësit më të mirë
+            dhe të freskët. Përveç picave klasike, keni mundësinë të shijoni edhe pica  specifike dhe ekskluzive
+            që janë të bërë me brumë artizanal, të cilin e përgatisim me dorë çdo ditë.
+             Për të parë menunë e plotë, klikoni mëposhtë.
+
+
+        </p>
+        <br><br><br><br>
+        <ul>
+            <li>🍕 Pizza Margherita - 4.00 Euro</li>
+            <li>🍕 Pizza Pepperoni - 4.00 Euro</li>
+            <li>🍕 Pizza Vegjetariane - 5.00 Euro</li>
+            <li>🍕 Pizza Tuna - 4.00 Euro</li>
+            <li>🍕 Pizza e Shtëpisë - 4.50 Euro</li>
+            <li>🍕 Pizza Fungi - 4.00 Euro</li>
+            <li>🍕 Pizza Katër Stinët - 4.50 Euro</li>
+        </ul>
+        <a onclick="showSection('contact')" class="button">Porosit Tani</a>
+    </section>
+    
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>📞 Na kontaktoni në: <strong>+383 49 271 276</strong></p>
+        <p>📧 Email: <strong>info@piceria.com</strong></p>
+    </section>
+
+    <section id="location">
+        <h2>Lokacioni</h2>
+        <p>📍 Piceria Albi - Shija e Vërtetë
+            📍 Rruga Bataljoni i Tretë, Prizren, Kosovë
+    </section>
+
+
+</div>
+
+<footer>
+    <p>&copy; 2025 Piceria Albi. Të gjitha të drejtat e rezervuara.</p>
+</footer>
+</body>
+</html>
