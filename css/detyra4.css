@@ -1,5 +1,5 @@
 #divk{
-    height: 700px;
+    height: 800px;
     width: 500px;
     border: 2px dotted black;
     padding:20px;
@@ -47,9 +47,81 @@
     
 #span2{
     color: lightblue;
+    font-size: 35px;
+}
+
+#div1{
+    border-bottom: 5px  dotted black;
+    height: 300px;
+    float: left;
+}
+
+#select1{
+    width: 200px;
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 
         
 
+=======
+#select2{
+    width: 200px;
+    font-size: 20px;
+        margin-bottom: 20px ;
+}
+
+#select3{
+    width: 100px;
+    font-size: 20px;
+    
+}
+
+#select4{
+    width: 100px;
+    font-size: 20px;
+}
+
+#label5{
+   
+     float: left;
+}
+
+#label6{
+    margin-left: 15px;
+     float: left;
+}
+
+#div3{
+    float: left ;
+    
+}
+
+
+#div4{
+    float: left ;
+   margin-rightt: 20px;
+}
+
+#label7{
+    float: right;
+    margin-right: 15px;
+
+}
+
+#label8{
+    float: right;
+    margin-rightt: 15px;
+}
+
+#label9{
+    float: right;
+    margin-right: 15px;
+}
+
+#label10{
+    float: right;
+    margin-right: 15px;
+}
+>>>>>>> 5ba7c860a7fb60469c6d7dcd87e257e10e0fec27

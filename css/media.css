@@ -1,0 +1,41 @@
+/*Media Queris (Responsive Design)*/
+
+/*What is Media Query*/
+
+body {
+    background-color: red;
+    color: black;
+  }
+  #div1 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: lightblue;
+      color: wheat;
+       
+    }
+    #div1 {
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+    
+  @media screen and (max-width: 768px) {
+      body{
+        background-color: red;
+        color: white;
+      }
+      #div1 {
+        display: flex;
+        flex-direction: column;
+      }
+  }
+  
+ 
+
+  
+  
