@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="detyra1.js"></script>
+</head>
+<body>
+    <script>
+        var mt1 = 82;
+        var gjt1 = 1.75;
+        var bmi1 = mt1 / (gjt1 * gjt1);
+        document.write(bmi1)
+        
+       document.write("<br>")
+
+        var mt2 = 60;
+        var gjt2 = 1.79;
+        var bmi2 = mt2 / (gjt2 * gjt2);
+        document.write(bmi2)
+        
+
+        var bmiMeEMadhe = bmi1> bmi2 ;
+        document.getElementById("rezultati").textContent= 
+        " A eshte BMI e nxenesit te pare me e madhe se e nxenesit te dyte?" + bmiMeEMadhe;
+
+    </script>
+</body>
+</html>
