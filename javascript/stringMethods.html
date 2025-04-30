@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+             <!--Karakteret speciale-->
+    <script language="javascript" type="text/javascript">
+        var x = "Shkolla digjitale 'Prizren'"; // te njefishta
+        document.write(x + "<br>");
+  
+        var y = 'Shkolla digjitale " Prizren" ';
+        //te dyfishta
+        document.write(y + "<br>");
+  
+        var z = "Shkolla digjitale \" Prizren\""; // te njefishta
+        document.write(z + "<br>");
+        //Pyetje? Si mund te e paraqesim nje '\'
+      </script>
+      <br />
+
+      <script>
+        var emri = " Arianit ";
+        document.write(emri.length + "</br>")
+
+        var mbiemri = "Arianit Tershnjaku";
+        var pozicioni = mbiemri.indexOf("Tershnjaku");
+
+        document.write(pozicioni + "</br>");
+
+        var x =" Arianit Tershnjaku plave Tershnjaku";
+        var y = x.lastIndexOf("Tershnjaku");
+        document.write(y + "</br>")
+
+        var c = " Arianit Tershnjaku plave Tershnjaku ";
+        var d = c.lastIndexOf("Tershnjaku", 20);
+        document.write(d + "</br>");
+
+      </script>
+
+<script>
+    // search() method
+    var a = "Arianit Tershnjaku plave";
+    var b = a.search("Tershnjaku"); //
+    document.write(b + "<br>"); // fillon numrimin nga 0
+
+    // charAt() method
+    var e = "Arianit Tershnjaku plave";
+    var f = e.charAt(3); //Kjo metod na mundeson kekrimin e nje karakteri
+    //Nese nuk i caktojme parameter, ateher e merr karakterin e pare
+    document.write(f + "<br>"); // fillon numrimin nga 0
+
+    // charCodeAt() method
+    var g = "Arianit Tershnjaku plave";
+    var h = g.charCodeAt(3); //Kjo metod na mundeson kerkimin e nje karakteri
+    document.write(h + "<br>"); // fillon numrimin nga 0
+
+    // concat() method
+    var g = "Arianit Tershnjaku";
+    var g1 = " Plave";
+    var h = g.concat(g1); //Kjo metod na mundeson bashkimin e stringeve
+    document.write(h + "<br>"); // fillon numrimin nga 0
+  </script>
+  <br /><br />
+
+  <script>
+    //Slice Methods nxjerr një pjesë të një vargu dhe e kthen pjesën e nxjerrë në një varg të ri.
+    // duhet te i caktohet pozita fillestare dhe pozita perfundimtare, poziten perfundimtare duhet te llogaritet me -1 p.sh 1,8 e merr si 1,7
+    var a = "Arianit Tershnjaku plave";
+    var b = a.slice(3, 9); //Duhet te i caktohen dy parametra fillestari dhe perfundimtari.
+    document.write(b + "<br>"); // fillon numrimin nga 0
+
+    var a = "Arianit Tershnjaku plave";
+    var b = a.slice(-10, -4); //Mund te caktohen edhe vlera negative, ato fillojne numrimin nga fundi.
+    document.write(b + "<br>"); // fillon numrimin nga 0
+
+    var a = "Arianit Tershnjaku plave";
+    var b = a.slice(10); //Mund te caktojme edhe vetem nje parameter.
+    document.write(b + "<br>");
+  </script>
+  <br />
+  <script>
+    // substring() metoda eshte e ngjashme me metoden slice()
+    //mirpo ketu nuk mund te i caktojme vlera negative
+    var a = "Arianit Tershnjaku plave";
+    var b = a.substring(10, 13); //nese nuk e shenojme parametrin e dyte atehere e merr krejt stingun deri ne fund.
+    document.write(b + "<br>");
+  </script>
+  <script>
+    // substr() metoda eshte perafersidht e ngjashme me metoden slice()
+    //mirpo ketu dallon diqka, parametri i dyte e cakton length e vleres qe na jep ne rezultat
+    var a = "Arianit Tershnjaku plave";
+    var b = a.substr(10, 5); //nese nuk e shenojme parametrin e dyte atehere e merr krejt stingun deri ne fund.
+    // gjithashtu me parameter negativ fillon nga fundi.
+    document.write(b + "<br>");
+  </script>
+  <script>
+    var a = "Arianit Tershnjaku plave";
+    var b = a.substr(-10, 5); // gjithashtu me parameter negativ fillon nga fundi.
+    document.write(b + "<br>");
+  </script>
+
+  <script>
+    //toLowerCase() method
+    var a = "Arianit Tershnjaku plave";
+    document.write(a.toLowerCase() + "<br>");
+
+    // toUpperCase() method
+    var b = "Arianit Tershnjaku plave";
+    document.write(b.toUpperCase());
+  </script>
+  <br />
+  <br />
+
+  <button onclick="document.getElementById('p1').innerHTML = txt;">
+    Kliko
+  </button>
+
+   <p id="p1">Arianit Tershnjaku Dragash</p>
+
+   <script>
+    var str = document.getElementById("p1").innerHTML;
+    var txt = str.replace ("Dragash", "Prizren");
+   </script>
+
+  <button onclick="document.getElementById('p1').innerHTML = txt2;">
+      Kliko2
+   </button>
+
+     <script>
+        var txt2 =str.replace ("Prizren", "Dragash");
+     </script>
+
+</body>
+</html>
