@@ -1,0 +1,49 @@
+  #divrotatex{
+    border: 1px solid red;
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    transform: rotatex(180deg);
+  }
+  #divrotatey{
+    border: 1px solid red;
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    transform: rotatey(180deg);
+  }
+  #divrotatez{
+    border: 1px solid red;
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    transform: rotatez(90deg);
+  }
+#foto1{
+    border-radius: 10px;
+    border-color: blue;
+    border-style: solid;
+    width: 300px;
+    height: 300px;
+}
+#foto2{
+    max-width:100%;
+    height: auto;
+}
+  #divobjectfit{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+  }
+  #foto3{
+    object-fit: fill;
+    object-fit: cover;
+    object-fit: contain;
+    object-fit: none;
+    object-fit: scale-down;
+    width: 400px;
+    height: 400px;
+  }
+  
+   
+  
