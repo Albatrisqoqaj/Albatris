@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+     
+    <script>
+            
+        var x = prompt('Shenoje ketu');
+        var y = parseFloat(x);
+        //var x = 2; //Se pari caktohet variabla
+        //case "1":	keshtu duhet me sqhenu kur e perdorim me prompt me vendos ne ""
+        
+        switch(y) // Tek switch e caktojme shprehjen, ne rastin ton variablen 'x'
+        {
+            case 1:   // Tek case i caktojme qfare vlera mundet me pas variabla 'x.
+                document.write("i pari"); // Brenda case e nxjerrim rezultatin
+                break;		// Break na mundeson qe te e ndalim ekzekutimin e kodit kur plotesohet kushti
+                //Break na kursen kohen me te madhe kur nuk kemi nevoj me i ekzekutue rreshtat nen zgjidhje
+                    
+            case 2:
+                document.write("i dyti"); //';' Nuk bajne problem po eshte mire mos me i perdor
+                break;
+            
+            case 3:
+                document.write("i treti")
+                break; //Nese nuk perdoret break prej case ku eshte i sakte ekzistohen te gjithe case tjere deri ne case e fundit.
+                
+            case 4:
+                document.write("i katerti")
+                //break;   //Ne fund mund edhe te mos e perdorim break pasi qe edhe ashtu kodi perfundon
+                
+            default:   //Default perdoret per te paraqitur nje rezultat nese nuk ka perputhje me case e me siperm
+                document.write("asnjëri")
+        }
+    </script>
+    <hr>
+    <br>
+    
+      <script>
+ 
+         var x = prompt('Shenoje ketu');
+         var y;
+         switch(x)
+        {
+            case "White":
+              y="E para";
+              break;
+
+         case "Green":
+            y="E dyta"
+             break;
+            
+         case "Yellow":
+           y="E treta"
+           break;
+           
+        default:
+            y="asnjeri"
+
+        }
+        document.write(y);
+       
+
+      </script> 
+       
+</body>
