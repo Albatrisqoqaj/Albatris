@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+     
+<script language="javascript" type="text/javascript">
+  var x = 123e3;
+  var y = 123e-3;
+  document.write(x + "<br>" + y);
+</script>
+<br />
+<br />
+<script>
+  var x = 999999999999999; // Ne JS integers jane te sakte deri ne 15 shifra.
+  var y = 9999999999999999;
+  document.write(x + "<br>" + y);
+</script>
+<br />
+<br />
+<script>
+  var x = 0.2 + 0.1;
+  document.write(x);
+</script>
+<br />
+<br />
+<script>
+  var x = 10;
+  var y = 20;
+  var z = "Rezultati eshte: " + x + y;
+  // var z = "Rezultati eshte: " + (x + y);
+  document.write(z);
+
+  var a = x + y + " eshte rezultati";
+
+  document.write("<br>");
+  document.write(a);
+</script>
+<br />
+<br />
+<script>
+  var x = "100";
+  var y = "10";
+  var z = x / y;
+  document.write(z);
+  document.write("<br>");
+  document.write("5" + 5 + 3);
+  document.write("<br>");
+
+  document.write(a);
+
+  document.write(z);
+</script>
+<br />
+<br />
+<script>
+  var x = 100 / "Apple";
+  document.write(x);
+</script>
+<br />
+<br />
+<script>
+  var x = 123;
+  document.write(x.toString() + 10 + "<br>");
+  // E kthen number ne string.
+  document.write((123).toString() + 10 + "<br>");
+  document.write((100 + 23).toString() + 10);
+</script>
+<br />
+<br />
+<script>
+  //Converting Variables to Numbers
+  //Global JavaScript Methods
+
+  //The Number() method		E kthen string ne number
+  document.write(Number("10") + 10);
+  document.write("<br>");
+  document.write(
+    Number(true) +
+      "<br>" + // 1
+      Number(false) +
+      "<br>" + // 0
+      Number("10") +
+      "<br>" + // 10
+      Number("  10") +
+      "<br>" + // 10
+      Number("10  ") +
+      "<br>" + // 10
+      Number(" 10  ") +
+      "<br>" +
+      Number("10.33") +
+      "<br>" +
+      Number("10,33") +
+      "<br>" +
+      Number("10 33") +
+      "<br>" +
+      Number("1/0")
+  );
+</script>
+<br />
+<br />
+<script>
+  // parseInt metoda
+  document.write(
+    parseInt("10") +
+      10 +
+      "<br>" + // rez 20
+      parseInt("10.73") +
+      "<br>" +
+      parseInt("10,33") +
+      "<br>" + // rez. e qet vetem numrin e pare.
+      parseInt("  10 6 10") +
+      "<br>" + // rez 10
+      parseInt(" 10 years") +
+      "<br>" + // rez 10
+      parseInt("years 10")
+  ); // rez NaN -pasi qe 'years' nuk mund te kthehet ne number.
+</script>
+<br />
+<br />
+<script>
+  //parseFloat metoda
+  document.write(
+    parseFloat("10") +
+      "<br>" +
+      parseFloat("10.33") +
+      "<br>" +
+      parseFloat("10,33") +
+      "<br>" + //10,33
+      parseFloat("10 6") +
+      "<br>" +
+      parseFloat("10years") +
+      "<br>" +
+      parseFloat("years 10")
+  );
+</script>
+
+
+
+</body>
