@@ -1,0 +1,117 @@
+<html>
+	<head>
+	</head>
+	<body>
+        <h1>Loops</h1>
+	<!--Loops(unazat)- perdoren per te ekzekutuar nje bllok te kodit per nje numer te cakutar te hereve 
+		Ne JavaScript loops qe perdoren me se shumti jane: For loop, While loop dhe Do-while loop.-->
+			<h1>While Loops</h1>
+			<!-- Tek while loop kushti ekzekutohet i pari pastaj kodi.
+				Nese harrohet te shenohet kushti, atehere loop do te perseritet pergjithmon,
+				ose edhe kur kushti nuk plotesohet kurr. Kjo e pamundeson browserin te ekzekutoj kodin.-->
+		<script>
+            
+		  var x = 0;
+            while (x<5) //Nese kushti plotesohet ekzekutohet kodi. 
+						//Kur kushti nuk plotesohet loop perfundon.
+			{
+                //Brenda kllapave shkruhet blloku i kodit i cili ekzekutohet perderisa plotesohet kushti.	
+                
+				document.write(x + "<br>"); 
+                console.log(x)
+                x++;
+				
+			}
+        </script>
+        <br>
+        <br>
+        
+        <script>
+		var emri = 'Shkolla';
+            
+		var i = 0;
+			while (i<3) 
+			{	
+				document.write(emri + "<br>"); 
+				i++;   						
+			}
+    
+		//Detyre While Loops-- Pyetje?? Sa eshte vlera e a-se?
+		var a = 0;
+		while(a < 3)
+		{                  
+           //console.log(a);
+			a++; //Nese harrojme te e shenojme rritjen loop nuk perfundon kurr;
+		}
+		console.log(a);
+	
+		//Sa eshte vlera e b-se?
+		var a = 0;
+		var b ='';
+		while(a < 4)
+		{
+			a++;
+			b+=a; //b = b+a
+			document.write(b+'<br>');
+			
+		}
+			//document.write(b+'<br>');
+		</script>
+        
+        
+        
+        
+        
+		<p>Do-while Loops</p>
+		<!--Eshte nje form e loop e cila i ngjason "while loop" mirepo dallimi eshte se tek loop-a 
+		Do-while loop kodi ekzekutohet se paku nje here. Kjo ndodh per arsye se kodi shenohet mbi kushtin 
+		dhe per kete arsye ka avantazh kur kodi ekzekutohet nga lart-poshte.-->
+        <br>	
+        <script>
+            var x = 0;
+            
+            do
+            {
+                document.write(x+'<br>');
+                x++;
+            }
+            while(x<5);
+        </script>
+        <br>
+		<script>
+		var i = 0;
+		var emri = 'Shkolla';
+		do{  //Se pari ekzekutohet kodi pastaj testohet kushti se a eshte i sakte
+			document.write(emri + '<br>')
+			i++;
+		}
+		while(i<3); //Pasi te ekzekutohet kodi testohet kushti se a eshte i sakte.
+		//Pyetje??? A e ekzekutohet kodi ne while loop nese nuk plotesohet kushtu?
+            
+            
+            //Tek Do-while loop kodi ekzekutohet nje here edhe nese kushti eshte i pa sakte
+		</script>
+        <br>	
+		<script>
+		//Mund te caktojme edhe limite psh nga x deri te y.
+			var x = 0;
+			var y = 7;
+			while(y>=x)
+			{
+				document.write(y+'<br>')
+				y--;
+			}
+		</script>
+        <br>
+		<script>
+			var x = 'hello';
+			var y =x.length;
+			var z = 0;
+			while(z<=y)
+			{
+				document.write(z+'<br>');
+				z++;
+			}
+		</script>
+	</body>
+</html>

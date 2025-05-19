@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+        <script>
+
+                  for(x=0; x<=5; x++)
+                 {
+                    document.write(x+'<br>')
+                 }  
+                
+                 
+    </script>
+    <br>
+            
+        <p id='p1' style="color: red;"></p>
+        <script>
+
+                  var para ='';
+                  
+                  for(x=0;x<=5;x++)
+                  {
+                    para+=x+'<br>';
+                  }
+                  document.getElementById('p1').innerHTML=para;
+
+    </script>
+
+               
+            <p id="p2"></p>
+            <script>
+
+                  var vargu = ['Shkolla','Digjitale','Prizren'];
+                  var y = vargu.length;
+                  var z ='';
+                  var a = vargu.sort();
+                  for(x=0;x<y;x++)
+                  {
+                    z+=vargu[x]+'<br>';
+                  }
+                  document.getElementById('p2').innerHTML = z;
+            </script>
+
+</body>
