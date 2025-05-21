@@ -1,2 +1,3 @@
 # Albatris
-Ligjeratat e HTML dhe CSS per 16:00A
+Ligjeratat e HTML dhe CSS dhe JavaScript
+
