@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+    <body>
+     
+           <h1>Date</h1>
+
+       <script>
+
+          var a = new Date();
+          document.write(a);
+
+     </script>
+    <br>
+    <br>
+    <br>
+
+    <script>
+        var a = new Date (2018, 2, 31, 15, 13, 50);
+
+        document.write(a+'<br>');
+    </script>
+    <br>
+    <br>
+    <br>
+    <script>
+        var b =new Date(4019);
+
+        document.write(b)
+
+    </script>
+
+    <br>
+    <br>
+    <br>
+
+          <script>
+			//new Date('si string')
+			//Edhe pse nuk ia caktojme krejt vlerat , edhe pse eshte string prap na shfaq te gjitha vlerat.
+			var c = new Date('May 30 2019 11:54');
+			document.write(c);
+		</script>
+		<br>
+		<br>
+		<script>
+		//Nese e caktojme vitin ne kete menyre atehere i merr vitet e shekullit te kaluar
+			var d = new Date(99, 10, 12) //1999 
+		
+            
+            document.write(d+"<br>");
+            
+            
+            
+           //1909 Pyetje??? 
+
+           var e = new Date(9, 10, 12) 
+			document.write(e);
+		</script>
+        
+        
+        
+        
+		<h2>Date Formats</h2>
+		<script>
+			//ISO Date -Ky eshte formati ISO qe e perdorem edhe me heret
+			var a =new Date('2019');
+			document.write(a+'<br>');
+			
+			//Short Date -- Shenohet keshtu: MM/DD/YYYY
+			var b = new Date('05/30/2019'); //disa browser e perkrahin edhe DD/MM/YYYY ose YYYY/MM/DD
+			//var a=new Date('2019-03-12'); //Per kete form YYYY/MM/DD	
+			document.write(b+'<br>');
+			
+			//Long Date -- Per ta nxjerr kete rezultat: "May 30 2019"
+			var c = new Date("may 30 2019")
+			//var c = new Date("30 may 2019") //funksionon edhe kjo menyre
+			document.write(c)
+		</script>
+		
+        <br>
+        <br>
+        <br>
+           
+         <h2>Date parse</h2>
+        <script>
+ 
+        var msec = Date.parse('may 21 2025');
+        document.write(msec)
+
+      </script>
+       
+       <br>
+       <br>
+       <br> 
+            
+       <script>
+ 
+      var msec = Date.parse('may 21 2025');
+      document.write(msec + "<br>");
+
+     var msec2 = Date.parse('Jan 01 2010');
+     document.write(msec - msec2);
+
+
+      </script>
+
+         <br>
+         <br>
+         <br>
+                   
+            
+		<h2>Date Methods</h2>
+        
+        <p>Get Methods</p>
+		<script>
+        
+        //getFullYear() method --Na mundeson te nxjerrim vitin
+			var data = new Date();
+			document.write("Eshte viti: "+data.getFullYear()+'<br>');
+            
+        //getMonth() method --Na mundeson te nxjerrim muajin
+			document.write("Eshte muaji: "+data.getMonth()+'<br>');            
+		//getDate() method --Na mundeson te e nxjerrim vetem diten
+			document.write("Sot eshte data: "+data.getDate()+'<br>');
+			
+		//getDay() method --Mundeson te i nxjerrim ditet e javes, mirepo me numra. Fillojne nga 0-6.
+			document.write("Sot eshte dita: "+data.getDay()+' e javes'+'<br>');
+			
+		//getHours() method --Mundeson te e nxjerrim  oren
+			document.write('Ora eshte: '+ data.getHours()+'<br>');
+		
+        //getMinutes() method -Mundeson te nxjerrim minutat
+			document.write('Minutat jane: '+ data.getMinutes()+'<br>');
+		
+        //getSeconds() method -Mundeson te nxjerrim secondat
+			document.write('Sekondat jane: '+ data.getSeconds()+'<br>');
+        
+        //getMilliseconds() method -Mundeson te vendosim milisecondat
+			document.write('Milisekondat jane: ' + data.getMilliseconds()+'<br>');
+            
+		</script>
+		<br>
+		<br>
+        <p>Set Methods</p>
+		<script>
+            //setFullYear() method --Na mundeson te vedosim vitin
+			var a = new Date();
+            
+            a.setFullYear(2020);
+			document.write(a+'<br>');
+            
+        //setMonth() method --Na mundeson te vendosim muajin
+			var b = new Date();
+            
+            b.setMonth(2);
+			document.write(b+'<br>');     
+            
+		//setDate() method --Na mundeson te e vendosim vetem diten
+			var c = new Date();
+            
+            c.setDate(10);
+			document.write(c+'<br>');
+			
+		//setDay() method --Kjo metod nuk funksionon Psee?
+			// var d = new Date();
+            
+            // d.setDay(5);
+			// document.write(d+'<br>');
+			
+		//setHours() method --Mundeson te e vendosim oren
+			var e = new Date();
+            
+            e.setHours(13);
+			document.write(e+'<br>');
+		
+        //setMinutes() method -Mundeson te vendosim minutat
+            var f = new Date();
+            
+            f.setMinutes(59);
+			document.write(f+'<br>');
+		
+        //setSeconds() method -Mundeson te vendosim secondat
+            var g = new Date();
+            
+            g.setSeconds(44);
+			document.write(g+'<br>');
+            
+        //setMilliseconds() method -Mundeson te vendosim milisecondat
+            var h = new Date();
+            
+            h.setMilliseconds(300);
+			document.write(h+'<br>');
+		</script>
+
+
+</body>
