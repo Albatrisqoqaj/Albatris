@@ -51,8 +51,120 @@
                                   }
                                   document.write(b(3,4));
                                   
-                                  document.write(z);
+                                 // document.write(z);
                           </script>
 
-</body>
+
+                         <p>Funksionet vazhdim</p>
+                         <script>
+
+                            let vlera = 20;
+                            vlera = 30;
+                            document.write(vlera);
+                            document.write("<br>");
+                            const vlera1 = 30;
+                            document.write(vlera1);
+
+                         </script>
+  
+                  <br>
+                  <br>
+                          <script>
+
+                               const fun = function (a,b)
+                               {
+                                return a * b;
+                               }
+                               document.write(fun(4,5)+ '<br>');
+
+
+                          </script>
+                <script>
+                     function uni(a,b)
+                     {  
+                       return a + b;
+                    }
+                    var x=uni(5,4);  //Rezultatin e funksionit mund te e vendosim edhe ne nje variabel.
+                    document.write(x+'<br>');
+           </script>
+
+             <script>
+
+                        function prizreni(a,b,c)
+                        {
+                            return arguments.length; //Tregon sa parametra i kemi shenuar ne funksion.
+                        };
+                        document.write(prizreni(3,4,1));
+                        </script>
+                        <p>Function scope</p>
+                        <script>
+                        //Global scope and Local scope
+
+                        function pz ()
+                        {
+                            var a1 = 5; //kjo eshte variabel lokale
+                            return a1 * a1;
+                        }
+                        //document.write(a1);
+                        document.write(pz()+'<br>');
+                        
+                        var a = 7;  //kjo eshte variabel globale
+                        function pr(a)  //Funksioni mund te ju qaset edhe variablave jashte funksionit
+                        {
+                            return a * a;
+                        }
+                        document.write(pr(5)+'<br>');
+                        </script>
+                        <script>
+                        //shembull 1
+                        var numero =0;
+                        function mbledh()
+                            {
+                                return numero += 1;
+                                
+                            }
+                            mbledh();
+                            mbledh();
+                            mbledh();
+                            document.write(numero+'<br>');
+                        </script>
+                        <script>
+                        //shembull 2
+                        function mbledh1()
+                            {
+                                var numero1 = 0;
+                                numero1 += 1;
+                                return numero1;
+                            }
+                            mbledh1();
+                            mbledh1();
+                            mbledh1();
+                            document.write(mbledh1());
+                        </script>
+                        <br>
+                         <br>
+                         
+                         <script>
+
+                            function mbledh2()
+                            {
+                               
+                                var x = 0;
+                                function shto(){
+                                    x+=1;
+                                }
+                                shto();
+                                shto();
+                                shto();
+                                return x;
+
+                            }
+                            document.write(mbledh2());
+
+                         </script>
+                         <br>
+                         <br> 
+</body> 
 </html>
+
+
