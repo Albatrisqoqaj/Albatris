@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+               <h2>JavaScript Object </h2>
+               <p id="p1"></p>
+               <script>
+                 
+                         var emrilaptopit = 'Dell';
+                          
+
+                          var laptopi ={
+
+                                emri:'Dell',
+                                modeli:'E7440',
+                                ngjyra:'hiri',
+                                pesha:'2kg'
+                          }
+
+                          document.write(laptopi + "<br>");
+                          console.log  (laptopi);
+                          
+                        document.write('Emri i laptopit eshte' + laptopi.emri + '<br>');
+                        
+                        document.getElementById('p1').innerHTML='Emri i laptopit eshte ' + laptopi.emri + ', modeli eshte '+laptopi.modeli + ',ngjyra' + laptopi.ngjyra;
+
+                        document.write('Emri i laptopit eshte' + laptopi.emri + '<br>');
+
+                </script>        
+
+            <script>
+				
+				//shembull tjeter
+			var personi ={	emri:'Arianit',
+							mbiemri:'Tershnjaku',
+							vendlindja:'Dragash',
+							gjatesia:1.75,
+						}
+						personi.mosha=25; //Objektit mund te i shtohen edhe veti te reja.
+						delete personi.gjatesia;
+				    document.write('Emri im eshte '+personi.emri+
+				' Mbiemri im eshte '+personi.mbiemri+ ' mosha ime eshte '+personi.mosha+' vendlindja ime eshte '+personi.vendlindja);
+				document.write("<br>")
+            //Nese deshirojme te e ndryshojme nje veti brenda objektit.
+            
+            personi.mosha= 30;
+
+			document.write("Mosha eshte: "+personi.mosha+"<br>");
+                        
+		</script>
+                <h2>Metoda e objekteve</h2>
+
+
+        <script>
+                    
+            var laptop ={
+            emri: "Dell ",
+            modeli: "E7440 ",
+            ngjyra: "Hiri ",
+            pesha: "2kg ",
+            lloji: function(){
+                return this.emri + " " + this.modeli + " " + this.ngjyra + " " + this.pesha;
+            }
+        }
+        document.write(laptop.lloji());
+                    
+            
+        </script>  
+
+        <br>
+        <br>
+        <br> 
+             
+                <h2>Konstruktoret e Objektit</h2>
+        <script>
+ 
+              function personi (x,y,z)
+              {
+                this.emri = x;
+                this.mbiemri = y;
+                this.mosha = z;
+              }
+              var a = new personi ('albatris', 'cocaj',15);
+              document.write(a.emri + a.mbiemri + a.mosha + "<br>");
+
+              var b = new personi('Lis ','Çollaku ',13);
+			document.write(b.emri + b.mbiemri + b.mosha);
+  
+         </script>
+
+</script>
+</body>
+</html>
