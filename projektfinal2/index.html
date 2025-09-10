@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> KOHA Bakery</title>
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">KOHA BAKERY</div>
+      <ul class="nav-links">
+        <li><a href="home">Home</a></li>
+        <li><a href="products">Products</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Freshly Baked Happiness</h1>
+      <p>Delicious breads, cakes, and pastries made with love every day.</p>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products" id="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="download.jpg" alt="Croissant">
+        <h3>Croissant</h3>
+        <p>Buttery and flaky, perfect for your morning.</p>
+        <span class="price">0.70$</span>
+        <button onclick="addToCart('Croissant', 0.70)">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images.jpg" alt="Bread">
+        <h3>Bread</h3>
+        <p>Soft, crunchy and daily baked.</p>
+        <span class="price">$0.50</span>
+        <button onclick="addToCart('Bread', 0.50)">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images2.jpg" alt="Bread">
+        <h3>Integral Bread</h3>
+        <p>Crusty outside, soft inside — baked daily.</p>
+        <span class="price">$0.70</span>
+        <button onclick="addToCart('Integral Bread', 0.70)">Add to Cart</button>
+      </div>
+
+       <div class="product-card">
+        <img src="imagess.jpg" alt="pastries">
+        <h3>pastries</h3>
+        <p>Crusty outside, soft inside — baked daily.</p>
+        <span class="price">$0.40</span>
+        <button onclick="addToCart('pastries', 0.40)">Add to Cart</button>
+      </div>
+
+       <div class="product-card">
+        <img src="images5.jpg" alt="Burek">
+        <h3>Burek</h3>
+        <p>Crusty outside, soft inside — baked daily.</p>
+        <span class="price">$1.50</span>
+        <button onclick="addToCart('Burek', 1.50)">Add to Cart</button>
+      </div>
+
+       <div class="product-card">
+        <img src="images4.jpg" alt="pastries">
+        <h3>pastries</h3>
+        <p>Crusty outside, soft inside — baked daily.</p>
+        <span class="price">$0.50</span>
+        <button onclick="addToCart('pastries', 0.50)">Add to Cart</button>
+      </div>
+
+          <div class="product-card">
+        <img src="images6.jpg" alt="Pizza">
+        <h3>Pizza</h3>
+        <p>Crunchy, baked with love.</p>
+        <span class="price">$3.50</span>
+        <button onclick="addToCart('Pizza', 3.50)">Add to Cart</button>
+      </div>
+
+       <div class="product-card">
+        <img src="download6.jpg" alt="Burek">
+        <h3>Burek with cheese and onions</h3>
+        <p>Crusty outside, soft inside — baked daily.</p>
+        <span class="price">$1.50</span>
+        <button onclick="addToCart('Burek', 1.50)">Add to Cart</button>
+      </div>
+
+       <div class="product-card">
+        <img src="download3.jpg" alt="Pizza slices">
+        <h3>Pizza slices</h3>
+        <p>Crunchy and baked with love</p>
+        <span class="price">$1.00</span>
+        <button onclick="addToCart('Pizza slices', 1.00)">Add to Cart</button>
+      </div>
+        
+        <div class="product-card">
+        <img src="download4.jpg" alt="Savory Pastry">
+        <h3>Savory Pastry</h3>
+        <p>Crunchy and baked with love</p>
+        <span class="price">$0.70</span>
+        <button onclick="addToCart('Savory Pastry', 0.70)">Add to Cart</button>
+      </div>
+
+         <div class="product-card">
+        <img src="images8.jpg" alt="Mini pastries">
+        <h3>Mini pastries</h3>
+        <p>Crunchy, soft and baked with love</p>
+        <span class="price">$0.20</span>
+        <button onclick="addToCart('Mini pastries', 0.20)">Add to Cart</button>
+      </div>
+
+
+         <div class="product-card">
+        <img src="download5.jpg" alt="Muffins">
+        <h3>Muffins</h3>
+        <p>Soft and baked with love</p>
+        <span class="price">$0.60</span>
+        <button onclick="addToCart('Muffins', 0.60)">Add to Cart</button>
+      </div>
+       
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>KOHA BAKERY  is a family-owned bakery founded in 2012.
+      We specialize in handcrafted pastries and bread, baked fresh every morning with the finest ingredients. 
+      Every day, we prepare fresh products using traditional recipes and quality ingredients,
+      so you can taste the comfort of home in every bite.
+      From daily bread and savory pies to freshly made desserts, our commitment is to
+      serve you with love and quality in everything we bake.
+
+      Welcome to our bakery - where every day begins with the smell of something good!
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025  KOHA Bakery | Follow us on 
+      <a href="Instagram">Instagram</a> • <a href="Facebook">Facebook</a>
+    </p>
+  </footer>
+
+  <script src="index.js></script>
+</body>
+</html>
+
+
