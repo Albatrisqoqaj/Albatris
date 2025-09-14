@@ -24,7 +24,6 @@ h1, h2, h3 {
 
 .navbar .logo {
   font-size: 50px;
-  font-family: 'Dancing Script', cursive;
   color: #b85c38;
 }
 
@@ -35,7 +34,7 @@ h1, h2, h3 {
 }
 
 .nav-links a {
-  text-decoration: none;
+  text-decoration: dashed;
   color: #5b5050;
   font-weight: bold;
 }
@@ -53,21 +52,25 @@ h1, h2, h3 {
   justify-content: center;
   text-align: center;
   color: #fff;
+  
 
 }
 
 .hero-content {
   background: rgba(0,0,0,0.5);
-  padding: 200px;
+  padding: 100px;
   border-radius: 40px;
-  min-height: 400px;
-  min: width 750px;;
+  min-height: 100px;
+  min: width 250px;;
+  
+  
 }
 
 .hero h1 {
-  font-size: 170px;
+  font-size: 120px;
   margin-bottom: 35px;
   text-align: center;
+  
 }
 
 /* Products */
@@ -121,41 +124,3 @@ button:hover {
   background-color: #8f3e1e;
 }
 
-/* About */
-.about {
-  padding: 150px;
-  background-color: #fff8f0;
-  text-align: center;
-  font-family: cursive;
-
-}
-
-/* Contact */
-.contact {
-  padding: 60px 40px;
-  background-color: #fffefb;
-  text-align: center;
-}
-
-.contact form {
-  display: flex;
-  flex-direction: column;
-  max-width: 600px;
-  margin: 0 auto;
-  gap: 15px;
-}
-
-.contact input, .contact textarea {
-  padding: 30px;
-  border-radius: 5px;
-  border: 1px solid #ddd;
-}
-
-/* Footer */
-footer {
-  padding: 20px;
-  background-color: #fff;
-  text-align: center;
-  font-size: 0.9em;
-  color: #777;
-}

@@ -20,6 +20,7 @@ h1, h2, h3 {
   position: sticky;
   top: 0;
   z-index: 1000;
+  font-family: cursive;
 }
 
 .navbar .logo {
@@ -58,82 +59,25 @@ h1, h2, h3 {
 
 .hero-content {
   background: rgba(0,0,0,0.5);
-  padding: 200px;
+  padding: 100px;
   border-radius: 40px;
-  min-height: 400px;
-  min: width 750px;;
+  min-height: 100px;
+  min: width 250px;;
+  font-family: cursive;
 }
 
 .hero h1 {
-  font-size: 170px;
+  font-size: 130px;
   margin-bottom: 35px;
   text-align: center;
-}
-
-/* Products */
-.products {
-  padding: 60px 40px;
-  background-color: #fffefb;
-  text-align: center;
-}
-
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  margin-top: 30px;
-}
-
-.product-card {
-  background: #fff8f0;
-  border-radius: 10px;
-  padding: 15px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.3s;
-}
-
-.product-card:hover {
-  transform: scale(1.03);
-}
-
-.product-card img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.price {
-  display: block;
-  color: #b85c38;
-  font-weight: bold;
-  margin: 10px 0;
-}
-
-button {
-  background-color: #b85c38;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #8f3e1e;
-}
-
-/* About */
-.about {
-  padding: 150px;
-  background-color: #fff8f0;
-  text-align: center;
   font-family: cursive;
-
 }
+
 
 /* Contact */
 .contact {
   padding: 60px 40px;
-  background-color: #fffefb;
+  background: rgba(0,0,0,0.5);
   text-align: center;
 }
 
@@ -159,3 +103,4 @@ footer {
   font-size: 0.9em;
   color: #777;
 }
+
